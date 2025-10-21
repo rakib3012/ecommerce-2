@@ -1,0 +1,180 @@
+{
+  "items":[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 49.99,
+      "brand": "SoundMax",
+      "rating": 4.5,
+      "inStock": true,
+      "image": "https://picsum.photos/id/180/400/300",
+      "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Pro X",
+      "category": "Wearables",
+      "price": 129.99,
+      "brand": "TechTime",
+      "rating": 4.7,
+      "inStock": true,
+      "image": "https://picsum.photos/id/250/400/300",
+      "description": "Advanced smartwatch with fitness tracking, heart rate monitor, and waterproof design."
+    },
+    {
+      "id": 3,
+      "name": "4K Ultra HD Smart TV",
+      "category": "Electronics",
+      "price": 599.99,
+      "brand": "ViewPlus",
+      "rating": 4.8,
+      "inStock": false,
+      "image": "https://picsum.photos/id/1011/400/300",
+      "description": "55-inch 4K UHD Smart TV with built-in streaming apps and voice control."
+    },
+    {
+      "id": 4,
+      "name": "Ergonomic Office Chair",
+      "category": "Furniture",
+      "price": 199.99,
+      "brand": "ComfortSpace",
+      "rating": 4.3,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1015/400/300",
+      "description": "Ergonomic mesh office chair with lumbar support and adjustable height."
+    },
+    {
+      "id": 5,
+      "name": "Gaming Laptop G15",
+      "category": "Computers",
+      "price": 1099.99,
+      "brand": "HyperTech",
+      "rating": 4.9,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1016/400/300",
+      "description": "Powerful gaming laptop with RTX graphics, Intel i7 CPU, and RGB keyboard."
+    },
+    {
+      "id": 6,
+      "name": "Portable Power Bank 20000mAh",
+      "category": "Accessories",
+      "price": 39.99,
+      "brand": "ChargeGo",
+      "rating": 4.4,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1020/400/300",
+      "description": "High-capacity power bank with fast charging and dual USB output."
+    },
+    {
+      "id": 7,
+      "name": "Running Shoes AirFlex",
+      "category": "Footwear",
+      "price": 89.99,
+      "brand": "Stride",
+      "rating": 4.6,
+      "inStock": false,
+      "image": "https://picsum.photos/id/1024/400/300",
+      "description": "Lightweight running shoes with breathable mesh and shock-absorbing sole."
+    },
+    {
+      "id": 8,
+      "name": "DSLR Camera X200",
+      "category": "Cameras",
+      "price": 799.99,
+      "brand": "PhotoPro",
+      "rating": 4.7,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1025/400/300",
+      "description": "Professional DSLR camera with 24MP sensor and 4K video recording."
+    },
+    {
+      "id": 9,
+      "name": "Smartphone Z10",
+      "category": "Electronics",
+      "price": 699.99,
+      "brand": "PhoneTech",
+      "rating": 4.5,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1027/400/300",
+      "description": "Latest smartphone with OLED display and triple camera system."
+    },
+    {
+      "id": 10,
+      "name": "Noise Cancelling Earbuds",
+      "category": "Electronics",
+      "price": 79.99,
+      "brand": "SoundMax",
+      "rating": 4.2,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1035/400/300",
+      "description": "Compact earbuds with active noise cancellation and long battery life."
+    },
+    {
+      "id": 11,
+      "name": "Gaming Mouse Pro",
+      "category": "Computers",
+      "price": 59.99,
+      "brand": "HyperTech",
+      "rating": 4.7,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1040/400/300",
+      "description": "High precision gaming mouse with customizable buttons and RGB lighting."
+    },
+    {
+      "id": 12,
+      "name": "Leather Office Bag",
+      "category": "Accessories",
+      "price": 149.99,
+      "brand": "ComfortSpace",
+      "rating": 4.3,
+      "inStock": true,
+      "image": "https://picsum.photos/id/1041/400/300",
+      "description": "Premium leather bag suitable for laptops and daily office essentials."
+    },
+    {
+      "id": 13,
+      "name": "Mountain Bike Xtreme",
+      "category": "Sports",
+      "price": 499.99,
+      "brand": "RideFast",
+      "rating": 4.6,
+      "inStock": false,
+      "image": "https://picsum.photos/id/1042/400/300",
+      "description": "Durable mountain bike with 21-speed gears and shock absorption."
+    },
+    {
+      "id": 14,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 49.99,
+      "brand": "SoundMax",
+      "rating": 4.5,
+      "inStock": true,
+      "image": "https://picsum.photos/id/180/400/300",
+      "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life."
+    },
+    {
+      "id": 15,
+      "name": "Smart Watch Pro X",
+      "category": "Wearables",
+      "price": 129.99,
+      "brand": "TechTime",
+      "rating": 4.7,
+      "inStock": true,
+      "image": "https://picsum.photos/id/250/400/300",
+      "description": "Advanced smartwatch with fitness tracking, heart rate monitor, and waterproof design."
+    },
+    {
+      "id": 16,
+      "name": "4K Ultra HD Smart TV",
+      "category": "Electronics",
+      "price": 599.99,
+      "brand": "ViewPlus",
+      "rating": 4.8,
+      "inStock": false,
+      "image": "https://picsum.photos/id/1011/400/300",
+      "description": "55-inch 4K UHD Smart TV with built-in streaming apps and voice control."
+    }
+  ]
+}
