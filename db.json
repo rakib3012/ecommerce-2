@@ -2,7 +2,7 @@
   "items":[
     {
       "id": 1,
-      "name": "Wireless Bluetooth Headphones",
+      "name": "Wireless Headphones",
       "category": "Electronics",
       "price": 49.99,
       "brand": "SoundMax",
@@ -57,14 +57,14 @@
     },
     {
       "id": 6,
-      "name": "Portable Power Bank 20000mAh",
+      "name": "Portable Power Bank ",
       "category": "Accessories",
       "price": 39.99,
       "brand": "ChargeGo",
       "rating": 4.4,
       "inStock": true,
       "image": "https://picsum.photos/id/1020/400/300",
-      "description": "High-capacity power bank with fast charging and dual USB output."
+      "description": "High-capacity power bank with fast charging and dual USB output 20000mAh."
     },
     {
       "id": 7,
@@ -145,14 +145,14 @@
     },
     {
       "id": 14,
-      "name": "Wireless Bluetooth Headphones",
+      "name": "Wireless Headphones",
       "category": "Electronics",
       "price": 49.99,
       "brand": "SoundMax",
       "rating": 4.5,
       "inStock": true,
       "image": "https://picsum.photos/id/180/400/300",
-      "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life."
+      "description": "High-quality wireless  Bluetooth headphones with noise cancellation and 20-hour battery life."
     },
     {
       "id": 15,
