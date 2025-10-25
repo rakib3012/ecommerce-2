@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import CartDetails from "../Component/CartDetails";
+import { NavLink } from "react-router-dom";
 
 const Cart = () => {
   const cart = useSelector((storeState) => storeState.cart);
@@ -58,9 +59,11 @@ const dispatch = useDispatch()
               Total Cost : <span className="text-gray-800">${totalSum}</span>
             </div>
             <div className="text-end">
-              <button className="w-50 mt-4 md:mt-0 bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600 transition duration-300">
+             <NavLink to={"/checkout"}>
+               <button className="w-50 mt-4 md:mt-0 bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600 transition duration-300">
                 Proceed to Checkout
               </button>
+             </NavLink>
             </div>
           </div>
         )}

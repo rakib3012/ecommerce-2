@@ -37,6 +37,7 @@ const Product = ({ product }) => {
         <button
           onClick={() =>
             dispatch({ type: "cart/addToCart", payload: product })
+            
           }
           className="mt-3 flex items-center justify-center gap-2 w-full bg-emerald-500 text-white font-medium py-2 rounded-xl hover:bg-emerald-600 active:scale-95 transition duration-300"
         >

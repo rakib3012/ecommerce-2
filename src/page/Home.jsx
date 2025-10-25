@@ -29,7 +29,7 @@ const Home = () => {
       </section>
 
       {/* ⚡ Features Section */}
-      <section className="py-16 px-6 md:px-16 bg-white">
+      <section className="py-8 px-6 md:px-16 bg-white">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
           Why Shop With Us?
         </h2>
@@ -56,13 +56,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* 🌿 Footer */}
-      <footer className="bg-gray-900 text-gray-300 text-center py-6">
-        <p className="text-sm">
-          © {new Date().getFullYear()} Rakib's Shop. All rights reserved.
-        </p>
-      </footer>
+       
     </div>
   );
 };

@@ -48,7 +48,8 @@ export const cartReducer = createReducer( [],(builder)=>{
     .addCase("cart/addToCart", (state, action)=>{
         const product = state.find(item=>item.id === action.payload.id);
         product ? (product.quantity+= 1) 
-        : state.push({...action.payload, quantity:1})
+        : state.push({...action.payload, quantity:1});
+        alert("added")
     })
     .addCase("cart/removeProduct", (state,action)=>{
         return state.filter(item => item.id !== action.payload)
