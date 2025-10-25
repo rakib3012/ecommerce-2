@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ShoppingCart, Menu, X } from "lucide-react";
+ import SignIn from "../SignInWithGoogle/SingIn";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,6 +46,16 @@ const Nav = () => {
               2
             </span>
           </Link>
+          <Link
+            to="/login"
+            className="relative hover:text-yellow-300 transition duration-300"
+          >
+            
+            <span className="">
+           <SignIn />
+            </span>
+          </Link>
+
 
           {/* 📱 Mobile Menu Button */}
           <button
