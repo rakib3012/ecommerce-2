@@ -50,9 +50,6 @@ export default function Footer() {
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-emerald-400">
               <FaLinkedin />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-emerald-400">
-              <FaGithub />
-            </a>
           </div>
         </div>
       </div>
