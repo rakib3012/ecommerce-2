@@ -14,7 +14,7 @@ const Nav = () => {
           to="/home"
           className="text-2xl font-extrabold tracking-wide hover:text-yellow-300 transition duration-300"
         >
-          Zaman'sShop<span className="text-yellow-300">.</span>
+          RakibShop<span className="text-yellow-300">.</span>
         </Link>
 
         {/* 🧭 Desktop Menu */}
