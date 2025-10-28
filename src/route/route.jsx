@@ -5,7 +5,8 @@ import Cart from "../page/Cart";
 import Home from "../page/Home";
 import Checkout from "../page/CheckOut";
 import LoginForm from "../page/LogIn";
- 
+import ProductDetails from "../Component/ProductDetails";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <LoginForm />,
-      }
+      },
+      {
+        path: "product/:productId",
+        element: <ProductDetails />,
+      },
     ],
   },
 ]);

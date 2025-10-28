@@ -1,15 +1,20 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { ShoppingCart } from "lucide-react"; // optional icon package (lucide-react)
 
 const Product = ({ product }) => {
-  const { name, price, brand, category, image } = product;
+  const { id, name, price, brand, category, image } = product;
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   return (
     <div className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden w-full max-w-xs">
       {/* Product Image */}
-      <div className="relative">
+      <div
+        className="relative cursor-pointer"
+        onClick={() => navigate(`/product/${id}`)}
+      >
         <img
           src={image}
           alt={name}
@@ -35,10 +40,7 @@ const Product = ({ product }) => {
         </div>
 
         <button
-          onClick={() =>
-            dispatch({ type: "cart/addToCart", payload: product })
-            
-          }
+          onClick={() => dispatch({ type: "cart/addToCart", payload: product })}
           className="mt-3 flex items-center justify-center gap-2 w-full bg-emerald-500 text-white font-medium py-2 rounded-xl hover:bg-emerald-600 active:scale-95 transition duration-300"
         >
           <ShoppingCart size={18} />

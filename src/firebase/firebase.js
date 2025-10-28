@@ -1,21 +1,20 @@
-// // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
-// // TODO: Add SDKs for Firebase products that you want to use
-// // https://firebase.google.com/docs/web/setup#available-libraries
+ // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// // Your web app's Firebase configuration
-// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAdobMoRyHARvWUQUu74Zjj-ZwZ-2tlCNo",
-//   authDomain: "ecommerce-2-2ebd8.firebaseapp.com",
-//   projectId: "ecommerce-2-2ebd8",
-//   storageBucket: "ecommerce-2-2ebd8.firebasestorage.app",
-//   messagingSenderId: "166521645651",
-//   appId: "1:166521645651:web:1d321a1c5e2a7d311774a6",
-//   measurementId: "G-3H210Q9K9C"
-// };
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCCRkKBqX_XI_XSkrM4cgv29xeDmzULb4g",
+  authDomain: "my-ecommerce-5e61f.firebaseapp.com",
+  projectId: "my-ecommerce-5e61f",
+  storageBucket: "my-ecommerce-5e61f.firebasestorage.app",
+  messagingSenderId: "5338234909",
+  appId: "1:5338234909:web:7dfdd61e08c458ac1746f4"
+};
 
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+// Initialize Firebase Authentication and get a reference to the service
+export const auth = getAuth(app);
